@@ -1,9 +1,12 @@
 Cách chạy demo
 
 Cần mở nhiều cửa sổ terminal:
-
+Có 2 phiên bản client
+Bản console (client.py) và bản GUI dùng thư viện Tkinter (client_gui.py)
 Terminal 1 (server): python server.py
+
 Terminal 2 (client 1): python client.py, rồi nhập tên, ví dụ “An”
+
 Terminal 3 (client 2): python client.py, rồi nhập tên, ví dụ “Binh”
 
 Sau đó gõ tin nhắn ở một client thì client còn lại sẽ nhận được. Chụp màn hình cả 3 cửa sổ để đưa vào báo cáo.
